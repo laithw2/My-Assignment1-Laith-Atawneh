@@ -24,7 +24,6 @@ public class ProductAdapter extends ArrayAdapter<Item> {
         super(context, 0, products);
     }
 
-//source (https://stackoverflow.com/questions/10120119/how-does-the-getview-method-work-when-creating-your-own-custom-adapter)
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Item item = getItem(position);
